@@ -1,7 +1,13 @@
-The first commandline argument is the file. The remaining arguments must 
-be put in the following order:
+To compile run:	javac -d bin src/*.java
+To run on the first example:  java -cp bin/ Main Examples/Example1.txt
+Can be run with addition arguments such as: 
+	java -cp bin/ Main Examples/Example1.txt linear 
+	java -cp bin/ Main Examples/Example1.txt debug
+	java -cp bin/ Main Examples/Example1.txt clean
 
-   linear debug complete clean
+The arguments must be put in the following order:   linear debug complete clean
+
+For example: java -cp bin/ Main Examples/Example1.txt linear debug complete clean
 
 linear - runs the linear algorithm only
 debug - displays rules applied
@@ -12,15 +18,15 @@ Note that complete can only come after debug.
 
 Valid Examples:
 
-Example1.txt linear debug clean
-Example1.txt linear  clean
-Example1.txt linear  debug complete
-Example1.txt debug complete
-Example1.txt debug complete clean
-Example1.txt debug clean
+Examples/Example1.txt linear debug clean
+Examples/Example1.txt linear  clean
+Examples/Example1.txt linear  debug complete
+Examples/Example1.txt debug complete
+Examples/Example1.txt debug complete clean
+Examples/Example1.txt debug clean
 
  Invalid Examples:
 
-test.txt debug clean linear
-test.txt complete clean 
+Examples/Example1.txt debug clean linear
+Examples/Example1.txt complete clean 
 
