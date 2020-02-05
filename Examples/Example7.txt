@@ -1,0 +1,4 @@
+Function: f 2 Unit
+Function: g 2 Unit
+Function: h 2 Unit
+Problem:  x   U_f U_f

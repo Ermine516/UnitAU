@@ -1,0 +1,6 @@
+Function: f  2 Unit
+Function: g 2 Free
+Function: a 0 Free
+Function: b 0 Free
+Function: c 0 Free
+Problem:  x   g(f(a,c),a) g(c,b)

@@ -1,0 +1,4 @@
+Function: f 2 Unit
+Function: h 2 Unit
+Function: g 2 Unit
+Problem: x f(h(g(U_f,U_h),h(U_f,U_g)),f(U_h,U_g))   g(f(U_g,U_g),h(U_g,U_g))

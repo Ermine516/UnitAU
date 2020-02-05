@@ -1,0 +1,3 @@
+Function: g 2 Unit
+Function: f 2 Unit
+Problem:  x   U_g U_f
